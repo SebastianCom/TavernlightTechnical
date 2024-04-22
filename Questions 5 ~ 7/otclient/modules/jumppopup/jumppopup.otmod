@@ -1,0 +1,9 @@
+Module
+  name: jumppopup
+  description: Adds a 'Jump Button' button to the game window. This opens a window that houses a minigame
+  author: Sebastian Comette
+  website: 
+  sandboxed: true
+  scripts: [ jumppopup ]
+  @onLoad: init()
+  @onUnload: terminate()
